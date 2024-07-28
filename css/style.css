@@ -1,0 +1,394 @@
+    /*============================ SEÇÃO DE TAGS ==============================*/
+    
+    body
+    {
+        color: #40514e;
+        margin: 0;
+        text-align: center;
+        font-family: "Merriweather", serif;
+        line-height: 2;                
+    }
+    
+    h1
+    {
+        font-family: "Hammersmith One", sans-serif;
+        font-size: 4rem;
+        margin: 0 auto;
+        color: #4ABFFF;
+        font-weight: normal;
+        line-height: 2;
+        margin-bottom: 10px;
+    }
+    
+    h2
+    {
+        font-family: "Montserrat", sans-serif;
+        color: #11999E;
+        font-size: 2.5rem;
+        font-weight: normal;
+        padding-bottom: 10px;
+        padding-top: 5%;
+    }
+
+    h3
+    {
+        font-family: "Montserrat", sans-serif;
+        font-size: 1.7rem;
+        color: #11999E;
+        font-weight: normal;
+    }
+    
+    hr
+    {
+        /*
+        border-style: none;
+        border-top-style: inset;           
+        border-color: black;
+        border-width: 0.1px;
+        width: 100%;*/
+        border: dotted #000 6px;
+        border-bottom: none;
+        width: 5%;
+        margin: 100px auto;
+    }
+
+    a
+    {
+        text-decoration:none;    	
+    }
+    
+    p
+    {
+        line-height: 2;
+    }
+       
+    /*============================ SEÇÃO DE CLASSES ==============================*/
+
+    .linkar-h2:hover
+    {
+        color:black;
+        text-decoration: underline;
+    }
+
+    .linkar-h3:hover
+    {
+        color:black;
+        text-decoration: underline;
+    }
+
+    .tabela-cabecalho
+    {
+        background-color: rgba(255, 0, 0, 0.849);
+    }
+
+    .tabela-conteudo
+    {
+        background-color: white;
+    }
+
+    .tabela-borda
+    {
+        color: black;
+        border: 1px solid black;
+        text-align:center ;
+        position: relative;
+        line-height: normal;
+                        
+    }
+
+           
+    .top-conteiner
+    {
+        background-color: rgb(26, 65, 77);
+        position: relative;
+        padding-top: 100px;
+        
+    }
+
+    .middle-container
+    {
+        margin: 100px auto;
+    }
+   
+    .icone-mugiwara-1
+    {
+       position: absolute;
+       right: 20%;
+       top: 8%;
+    }
+
+    .icone-mugiwara-2
+    {
+        position: absolute;
+        bottom: 3%;
+        right: 80%;
+    }
+
+    .sub-titulo
+    {
+        font-weight: normal;
+        color: #4ABFFF;
+    }
+
+    .sub-titulo:hover
+    {
+        color:#EAF6F6;
+        text-decoration: underline;
+    }
+
+    .img-tripulacao
+    {
+        margin-bottom: 50px;
+    }
+
+    .cap-east-blue
+    {
+        position: absolute;
+        left: 43%;
+        top: 167%;
+        
+    }
+    
+    .img-east-blue
+    {
+        width: 35%;
+        margin-right: 30px;
+    }
+
+    .east-blue-row
+    {
+        width: 50%;
+        text-align: left;
+        margin: 40px auto 100px auto; /*top right bottom left*/
+        
+        
+    }
+
+    .cap-romance-dawn
+    {
+        position: absolute;
+        left: 43%;
+        top: 226%;
+    }
+    
+    .img-romance-dawn
+    {
+        width: 35%;
+        margin-right: 30px;
+              
+    }
+
+    .romance-dawn-row
+    {
+        width: 50%;
+        text-align: left;
+        margin: 40px auto 100px auto; /*top right bottom left*/
+        
+        
+    }
+
+    .cap-orange-town
+    {
+        position: absolute;
+        left: 43%;
+        top: 278%;
+        
+    }
+    
+    .img-orange-town
+    {
+        width: 35%;
+        margin-right: 30px;
+    }
+
+    .orange-town-row
+    {
+        width: 50%;
+        text-align: left;
+        margin: 40px auto 100px auto; /*top right bottom left*/
+        
+        
+    }
+
+    .cap-vila-syrup
+    {
+        position: absolute;
+        left: 43%;
+        top: 334%;
+        
+    }
+    
+    .img-vila-syrup
+    {
+        width: 35%;
+        margin-right: 30px;
+    }
+
+    .vila-syrup-row
+    {
+        width: 50%;
+        text-align: left;
+        margin: 40px auto 100px auto; /*top right bottom left*/
+        
+        
+    }
+
+    .cap-baratie
+    {
+        position: absolute;
+        left: 43%;
+        top: 395%;
+        
+    }
+    
+    .img-baratie
+    {
+        width: 35%;
+        margin-right: 30px;
+    }
+
+    .baratie-row
+    {
+        width: 50%;
+        text-align: left;
+        margin: 40px auto 100px auto; /*top right bottom left*/
+        
+        
+    }
+    
+    .cap-arlong-park
+    {
+        position: absolute;
+        left: 43%;
+        top: 455%;
+        
+    }
+    
+    .img-arlong-park
+    {
+        width: 35%;
+        margin-right: 30px;
+    }
+
+    .arlong-park-row
+    {
+        width: 50%;
+        text-align: left;
+        margin: 40px auto 100px auto; /*top right bottom left*/
+        
+        
+    }
+
+    .cap-loguetown
+    {
+        position: absolute;
+        left: 46%;
+        top: 508%;
+        
+    }
+    
+    .img-loguetown
+    {
+        width: 40%;
+        height: 50%;
+        margin-right: 30px;
+    }
+
+    .loguetown-row
+    {
+        width: 50%;
+        text-align: left;
+        margin: 40px auto 100px auto; /*top right bottom left*/
+        
+        
+    }
+
+    .contact-message
+    {
+        width: 40%;
+        margin: 40px auto 60px;
+        text-align: center;
+    }
+
+    .btn 
+    {
+        background: rgb(26, 65, 77);
+        background-image: -webkit-linear-gradient(top, rgb(26, 65, 77), #2980b9);
+        background-image: -moz-linear-gradient(top, rgb(26, 65, 77), #2980b9);
+        background-image: -ms-linear-gradient(top, rgb(26, 65, 77), #2980b9);
+        background-image: -o-linear-gradient(top, rgb(26, 65, 77), #2980b9);
+        background-image: linear-gradient(to bottom, rgb(26, 65, 77), #2980b9);
+        -webkit-border-radius: 25;
+        -moz-border-radius: 25;
+        border-radius: 25px;
+        text-shadow: 1px 1px 3px #000000;
+        font-family: Georgia;
+        color: #ffffff;
+        font-size: 22px;
+        padding: 12px;
+        text-decoration: none;
+    }
+      
+      .btn:hover 
+    {
+        background: #39468a;
+        background-image: -webkit-linear-gradient(top, #39468a, #11cdd4);
+        background-image: -moz-linear-gradient(top, #39468a, #11cdd4);
+        background-image: -ms-linear-gradient(top, #39468a, #11cdd4);
+        background-image: -o-linear-gradient(top, #39468a, #11cdd4);
+        background-image: linear-gradient(to bottom, #39468a, #11cdd4);
+        text-decoration: none;
+    }
+
+    .bottom-container
+    {
+        background-color: rgb(26, 65, 77);
+        font-family: "Montserrat", sans-serif;
+        padding: 50px 0 20px;
+                       
+    }
+
+    .footer-link
+    {
+        color: #4ABFFF;
+        margin: 10px 20px;
+    }
+
+    .footer-link:hover
+    {
+        color:#EAF6F6;
+        text-decoration: underline;
+    }
+
+    .copyright
+    {
+        font-size: 0.75rem;
+        color: white;
+        padding: 20px 0 ;
+    }
+
+    .tabela-nota-east-blue
+    {
+        position: relative;
+        line-height: normal;
+        text-align:left;
+        left: 44%;
+    }
+
+    .lista-contato
+    {
+        position: relative;
+        line-height: normal;
+        text-align:left;
+        left: 42%;
+    }
+    /*============================ SEÇÃO DE IDS ==============================*/
+
+    /*#img-cabecalho
+    {
+        
+        
+    }*/
+
+    
+
