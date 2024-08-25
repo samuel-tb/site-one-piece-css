@@ -146,6 +146,8 @@
         position: absolute;
         left: 43%;
         top: 167%;
+        margin-right: 350px;
+
         
     }
     
@@ -169,6 +171,8 @@
         position: absolute;
         left: 43%;
         top: 226%;
+        margin-right: 350px;
+
     }
     
     .img-romance-dawn
@@ -192,6 +196,8 @@
         position: absolute;
         left: 43%;
         top: 278%;
+        margin-right: 350px;
+
         
     }
     
@@ -215,6 +221,8 @@
         position: absolute;
         left: 43%;
         top: 334%;
+        margin-right: 350px;
+
         
     }
     
@@ -238,6 +246,8 @@
         position: absolute;
         left: 43%;
         top: 395%;
+        margin-right: 350px;
+
         
     }
     
@@ -261,6 +271,8 @@
         position: absolute;
         left: 43%;
         top: 455%;
+        margin-right: 350px;
+
         
     }
     
@@ -284,6 +296,8 @@
         position: absolute;
         left: 46%;
         top: 508%;
+        margin-right: 350px;
+
         
     }
     
@@ -389,6 +403,57 @@
         
         
     }*/
+
+    @media(max-width: 1800px){
+        .cap-east-blue{
+            position:inline-block;
+        }
+        .cap-romance-dawn{
+            position: static;
+        }
+        .cap-orange-town{
+            position: static;
+        }
+        .cap-vila-syrup{
+            position: static;
+        }
+        .cap-baratie{
+            position: static;
+        }
+        .cap-arlong-park{
+            position: static;
+        }
+        .cap-loguetown{
+            position: static;
+        }
+
+    }
+
+    @media(max-height: 900px){
+        .cap-east-blue{
+        position: static;
+            
+        }
+        .cap-romance-dawn{
+            position: static;
+        }
+        .cap-orange-town{
+            position: static;
+        }
+        .cap-vila-syrup{
+            position: static;
+        }
+        .cap-baratie{
+            position: static;
+        }
+        .cap-arlong-park{
+            position: static;
+        }
+        .cap-loguetown{
+            position: static;
+        }
+
+    }
 
     
 
