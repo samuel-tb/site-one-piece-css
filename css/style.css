@@ -396,64 +396,139 @@
         text-align:left;
         left: 42%;
     }
-    /*============================ SEÇÃO DE IDS ==============================*/
+    
+    /*============================ SEÇÃO DE MIDIA QUERY ==============================*/
 
-    /*#img-cabecalho
-    {
-        
-        
-    }*/
-
-    @media(max-width: 1800px){
+    
+    @media(max-width: 1850px) or (max-height: 900px){
         .cap-east-blue{
-            position:inline-block;
-        }
-        .cap-romance-dawn{
-            position: static;
-        }
-        .cap-orange-town{
-            position: static;
-        }
-        .cap-vila-syrup{
-            position: static;
-        }
-        .cap-baratie{
-            position: static;
-        }
-        .cap-arlong-park{
-            position: static;
-        }
-        .cap-loguetown{
-            position: static;
-        }
-
-    }
-
-    @media(max-height: 900px){
-        .cap-east-blue{
-        position: static;
+            position:static;
+            margin-right: 150px;
+            margin-left: 150px;
+            text-align: center;
             
         }
+        .east-blue-row{
+            text-align: center;
+        }
+        .img-east-blue{
+            width: 50%;
+        }
+
         .cap-romance-dawn{
             position: static;
+            margin-right: 150px;
+            margin-left: 150px;
         }
+        .romance-dawn-row{
+            text-align: center;
+        }
+        .img-romance-dawn{
+            width: 50%;
+        }
+
         .cap-orange-town{
             position: static;
+            margin-right: 150px;
+            margin-left: 150px;
         }
+        .orange-town-row{
+            text-align: center;
+        }
+        .img-orange-town{
+            width: 50%;
+        }
+
         .cap-vila-syrup{
             position: static;
+            margin-right: 150px;
+            margin-left: 150px;
         }
+        .vila-syrup-row{
+            text-align: center;
+        }
+        .img-vila-syrup{
+            width: 50%;
+        }
+
         .cap-baratie{
             position: static;
+            margin-right: 150px;
+            margin-left: 150px;
         }
+        .baratie-row{
+            text-align: center;
+        }
+        .img-baratie{
+            width: 50%;
+        }
+
         .cap-arlong-park{
             position: static;
+            margin-right: 150px;
+            margin-left: 150px;
         }
+        .arlong-park-row{
+            text-align: center;
+        }
+        .img-arlong-park{
+            width: 50%;
+        }
+        
         .cap-loguetown{
             position: static;
+            margin-right: 150px;
+            margin-left: 150px;
+        }
+        .loguetown-row{
+            text-align: center;
+        }
+        .img-loguetown{
+            width: 50%;
+        }
+
+        .tabela-borda{
+            display: static;
+        }
+
+        .icone-mugiwara-2 {
+            bottom: 1%;
         }
 
     }
+
+    @media(max-width: 1300px){
+
+        .cap-east-blue{
+            margin: auto;
+        }
+        .cap-romance-dawn{
+           margin-right: 0px;
+           margin-left: 0px;
+        }
+        .cap-orange-town{
+            margin-right: 0px;
+            margin-left: 0px;
+        }
+        .cap-vila-syrup{
+            margin-right: 0px;
+            margin-left: 0px;
+        }
+        .cap-baratie{
+            margin-right: 0px;
+            margin-left: 0px;
+        }
+        .cap-arlong-park{
+            margin-right: 0px;
+            margin-left: 0px;
+        }
+        .cap-loguetown{
+            margin-right: 0px;
+            margin-left: 0px;
+        }
+    }
+    
+
 
     
 
